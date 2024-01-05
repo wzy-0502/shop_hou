@@ -1,0 +1,438 @@
+{
+  "groups": [
+    {
+      "name": "ignored",
+      "type": "cn.lili.common.properties.IgnoredUrlsProperties",
+      "sourceType": "cn.lili.common.properties.IgnoredUrlsProperties"
+    },
+    {
+      "name": "lili.api",
+      "type": "cn.lili.common.properties.ApiProperties",
+      "sourceType": "cn.lili.common.properties.ApiProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch",
+      "type": "cn.lili.elasticsearch.config.ElasticsearchProperties",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.account",
+      "type": "cn.lili.elasticsearch.config.ElasticsearchProperties$Account",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.index",
+      "type": "cn.lili.elasticsearch.config.ElasticsearchProperties$Index",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.rocketmq",
+      "type": "cn.lili.common.properties.RocketmqCustomProperties",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.domain",
+      "type": "cn.lili.common.properties.DomainProperties",
+      "sourceType": "cn.lili.common.properties.DomainProperties"
+    },
+    {
+      "name": "lili.jwt-setting",
+      "type": "cn.lili.common.properties.JWTTokenProperties",
+      "sourceType": "cn.lili.common.properties.JWTTokenProperties"
+    },
+    {
+      "name": "lili.sms",
+      "type": "cn.lili.common.properties.SmsTemplateProperties",
+      "sourceType": "cn.lili.common.properties.SmsTemplateProperties"
+    },
+    {
+      "name": "lili.statistics",
+      "type": "cn.lili.common.properties.StatisticsProperties",
+      "sourceType": "cn.lili.common.properties.StatisticsProperties"
+    },
+    {
+      "name": "lili.system",
+      "type": "cn.lili.common.properties.SystemSettingProperties",
+      "sourceType": "cn.lili.common.properties.SystemSettingProperties"
+    },
+    {
+      "name": "lili.thread",
+      "type": "cn.lili.common.properties.ThreadProperties",
+      "sourceType": "cn.lili.common.properties.ThreadProperties"
+    },
+    {
+      "name": "lili.verification-code",
+      "type": "cn.lili.common.properties.VerificationCodeProperties",
+      "sourceType": "cn.lili.common.properties.VerificationCodeProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ignored.urls",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "cn.lili.common.properties.IgnoredUrlsProperties"
+    },
+    {
+      "name": "lili.api.buyer",
+      "type": "java.lang.String",
+      "description": "买家api",
+      "sourceType": "cn.lili.common.properties.ApiProperties"
+    },
+    {
+      "name": "lili.api.common",
+      "type": "java.lang.String",
+      "description": "管理端域名",
+      "sourceType": "cn.lili.common.properties.ApiProperties"
+    },
+    {
+      "name": "lili.api.manager",
+      "type": "java.lang.String",
+      "description": "管理端域名",
+      "sourceType": "cn.lili.common.properties.ApiProperties"
+    },
+    {
+      "name": "lili.api.store",
+      "type": "java.lang.String",
+      "description": "管理端域名",
+      "sourceType": "cn.lili.common.properties.ApiProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.account.password",
+      "type": "java.lang.String",
+      "description": "认证密码",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties$Account"
+    },
+    {
+      "name": "lili.data.elasticsearch.account.username",
+      "type": "java.lang.String",
+      "description": "认证用户",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties$Account"
+    },
+    {
+      "name": "lili.data.elasticsearch.cluster-name",
+      "type": "java.lang.String",
+      "description": "集群名称",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.cluster-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "description": "集群节点",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.connect-timeout",
+      "type": "java.lang.Integer",
+      "description": "连接超时时间(毫秒)",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.connection-request-timeout",
+      "type": "java.lang.Integer",
+      "description": "连接请求超时时间",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.index-prefix",
+      "type": "java.lang.String",
+      "description": "索引前缀",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.index.number-of-replicas",
+      "type": "java.lang.Integer",
+      "description": "副本数量",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties$Index"
+    },
+    {
+      "name": "lili.data.elasticsearch.index.number-of-shards",
+      "type": "java.lang.Integer",
+      "description": "分片数量",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties$Index"
+    },
+    {
+      "name": "lili.data.elasticsearch.max-connect-per-route",
+      "type": "java.lang.Integer",
+      "description": "每个路由的最大连接数量",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.max-connect-total",
+      "type": "java.lang.Integer",
+      "description": "最大连接总数量",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.schema",
+      "type": "java.lang.String",
+      "description": "请求协议",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.elasticsearch.socket-timeout",
+      "type": "java.lang.Integer",
+      "description": "socket 超时时间",
+      "sourceType": "cn.lili.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.after-sale-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.after-sale-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.broadcast-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.broadcast-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.goods-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.goods-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.member-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.member-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.msg-ext-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.msg-ext-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.notice-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.notice-send-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.notice-send-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.notice-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.order-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.order-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.other-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.other-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.promotion-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.promotion-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.store-group",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.store-topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.data.rocketmq.topic-user",
+      "type": "java.lang.String",
+      "sourceType": "cn.lili.common.properties.RocketmqCustomProperties"
+    },
+    {
+      "name": "lili.domain.admin",
+      "type": "java.lang.String",
+      "description": "管理端域名",
+      "sourceType": "cn.lili.common.properties.DomainProperties"
+    },
+    {
+      "name": "lili.domain.pc",
+      "type": "java.lang.String",
+      "description": "买家PC端域名",
+      "sourceType": "cn.lili.common.properties.DomainProperties"
+    },
+    {
+      "name": "lili.domain.store",
+      "type": "java.lang.String",
+      "description": "Store域名",
+      "sourceType": "cn.lili.common.properties.DomainProperties"
+    },
+    {
+      "name": "lili.domain.wap",
+      "type": "java.lang.String",
+      "description": "买家WAP端域名",
+      "sourceType": "cn.lili.common.properties.DomainProperties"
+    },
+    {
+      "name": "lili.jwt-setting.token-expire-time",
+      "type": "java.lang.Long",
+      "description": "token默认过期时间",
+      "sourceType": "cn.lili.common.properties.JWTTokenProperties"
+    },
+    {
+      "name": "lili.sms.f-i-n-d-u-s-e-r",
+      "type": "java.lang.String",
+      "description": "找回密码",
+      "sourceType": "cn.lili.common.properties.SmsTemplateProperties"
+    },
+    {
+      "name": "lili.sms.l-o-g-i-n",
+      "type": "java.lang.String",
+      "description": "登录",
+      "sourceType": "cn.lili.common.properties.SmsTemplateProperties"
+    },
+    {
+      "name": "lili.sms.r-e-g-i-s-t-e-r",
+      "type": "java.lang.String",
+      "description": "注册",
+      "sourceType": "cn.lili.common.properties.SmsTemplateProperties"
+    },
+    {
+      "name": "lili.sms.u-p-d-a-t-e-p-a-s-s-w-o-r-d",
+      "type": "java.lang.String",
+      "description": "设置密码",
+      "sourceType": "cn.lili.common.properties.SmsTemplateProperties"
+    },
+    {
+      "name": "lili.sms.w-a-l-l-e-t-p-a-s-s-w-o-r-d",
+      "type": "java.lang.String",
+      "description": "设置支付密码",
+      "sourceType": "cn.lili.common.properties.SmsTemplateProperties"
+    },
+    {
+      "name": "lili.statistics.current-online-update",
+      "type": "java.lang.Integer",
+      "description": "当前在线人数 刷新时间间隔",
+      "sourceType": "cn.lili.common.properties.StatisticsProperties"
+    },
+    {
+      "name": "lili.statistics.online-member",
+      "type": "java.lang.Integer",
+      "description": "在线人数统计 X 小时",
+      "sourceType": "cn.lili.common.properties.StatisticsProperties"
+    },
+    {
+      "name": "lili.system.is-demo-site",
+      "type": "java.lang.Boolean",
+      "description": "是否是演示站点",
+      "sourceType": "cn.lili.common.properties.SystemSettingProperties"
+    },
+    {
+      "name": "lili.system.is-test-model",
+      "type": "java.lang.Boolean",
+      "description": "测试模式 验证码短信为6个1",
+      "sourceType": "cn.lili.common.properties.SystemSettingProperties"
+    },
+    {
+      "name": "lili.system.sensitive-level",
+      "type": "java.lang.Integer",
+      "description": "脱敏级别： 0：不做脱敏处理 1：管理端用户手机号等信息脱敏 2：商家端信息脱敏（为2时，表示管理端，商家端同时脱敏） <p> PS:",
+      "sourceType": "cn.lili.common.properties.SystemSettingProperties"
+    },
+    {
+      "name": "lili.thread.allow-core-thread-time-out",
+      "type": "java.lang.Boolean",
+      "description": "允许超时关闭",
+      "sourceType": "cn.lili.common.properties.ThreadProperties"
+    },
+    {
+      "name": "lili.thread.core-pool-size",
+      "type": "java.lang.Integer",
+      "description": "核心线程数",
+      "sourceType": "cn.lili.common.properties.ThreadProperties"
+    },
+    {
+      "name": "lili.thread.keep-alive-seconds",
+      "type": "java.lang.Integer",
+      "description": "保持存活时间",
+      "sourceType": "cn.lili.common.properties.ThreadProperties"
+    },
+    {
+      "name": "lili.thread.max-pool-size",
+      "type": "java.lang.Integer",
+      "description": "最大线程数",
+      "sourceType": "cn.lili.common.properties.ThreadProperties"
+    },
+    {
+      "name": "lili.thread.queue-capacity",
+      "type": "java.lang.Integer",
+      "description": "队列最大长度",
+      "sourceType": "cn.lili.common.properties.ThreadProperties"
+    },
+    {
+      "name": "lili.verification-code.effective-time",
+      "type": "java.lang.Long",
+      "description": "过期时间 包含滑块验证码有效时间， 以及验证通过之后，缓存中存储的验证结果有效时间",
+      "sourceType": "cn.lili.common.properties.VerificationCodeProperties"
+    },
+    {
+      "name": "lili.verification-code.fault-tolerant",
+      "type": "java.lang.Integer",
+      "description": "容错像素",
+      "sourceType": "cn.lili.common.properties.VerificationCodeProperties"
+    },
+    {
+      "name": "lili.verification-code.interfere-num",
+      "type": "java.lang.Integer",
+      "description": "干扰数量 最大数量",
+      "sourceType": "cn.lili.common.properties.VerificationCodeProperties"
+    },
+    {
+      "name": "lili.verification-code.watermark",
+      "type": "java.lang.String",
+      "description": "水印",
+      "sourceType": "cn.lili.common.properties.VerificationCodeProperties"
+    }
+  ],
+  "hints": []
+}

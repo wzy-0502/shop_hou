@@ -1,0 +1,397 @@
+[2m2023-12-26 09:49:42.689[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mcn.lili.admin.AdminApplication          [0;39m [2m:[0;39m Starting AdminApplication using Java 1.8.0_321 on DESKTOP-KO4HVEC with PID 1596 (D:\Desk\project\wv小程序\lilishop\admin\target\classes started by wzy05 in D:\Desk\project\wv小程序\lilishop)
+[2m2023-12-26 09:49:42.693[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mcn.lili.admin.AdminApplication          [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2023-12-26 09:49:44.023[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8000 (http)
+[2m2023-12-26 09:49:44.035[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2023-12-26 09:49:44.035[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.52]
+[2m2023-12-26 09:49:44.038[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+[2m2023-12-26 09:49:44.038[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+[2m2023-12-26 09:49:44.039[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[2m2023-12-26 09:49:44.039[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2023-12-26 09:49:44.043[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+[2m2023-12-26 09:49:44.168[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2023-12-26 09:49:44.169[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1432 ms
+[2m2023-12-26 09:49:44.912[0;39m [33m WARN[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mion$DefaultTemplateResolverConfiguration[0;39m [2m:[0;39m Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2m2023-12-26 09:49:46.926[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f76872f, org.springframework.security.web.context.SecurityContextPersistenceFilter@147c00aa, org.springframework.security.web.header.HeaderWriterFilter@ff5d4f1, org.springframework.security.web.authentication.logout.LogoutFilter@4ffa7041, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4df0d9f8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7717b4a0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4db728df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71fb8301, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@28b5662d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d4e99de, org.springframework.security.web.session.SessionManagementFilter@254e9709, org.springframework.security.web.access.ExceptionTranslationFilter@4e8d9bb6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1533338c]
+[2m2023-12-26 09:49:46.991[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 14 endpoint(s) beneath base path '/actuator'
+[2m2023-12-26 09:49:47.060[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8000 (http) with context path ''
+[2m2023-12-26 09:49:47.084[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[           main][0;39m [36mcn.lili.admin.AdminApplication          [0;39m [2m:[0;39m Started AdminApplication in 5.388 seconds (JVM running for 7.066)
+[2m2023-12-26 09:49:47.744[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[1)-192.168.29.1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2023-12-26 09:49:47.745[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[1)-192.168.29.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2023-12-26 09:49:47.747[0;39m [32m INFO[0;39m [35m1596[0;39m [2m---[0;39m [2m[1)-192.168.29.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+2023-12-26 10:05:27.878  INFO 29372 --- [           main] cn.lili.admin.AdminApplication           : Starting AdminApplication using Java 1.8.0_321 on DESKTOP-KO4HVEC with PID 29372 (D:\Desk\project\wv小程序\lilishop\admin\target\classes started by wzy05 in D:\Desk\project\wv小程序\lilishop)
+2023-12-26 10:05:27.883  INFO 29372 --- [           main] cn.lili.admin.AdminApplication           : No active profile set, falling back to default profiles: default
+2023-12-26 10:05:30.117  INFO 29372 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-12-26 10:05:30.130  INFO 29372 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-26 10:05:30.130  INFO 29372 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2023-12-26 10:05:30.132  INFO 29372 --- [           main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-26 10:05:30.132  INFO 29372 --- [           main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2023-12-26 10:05:30.132  INFO 29372 --- [           main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-26 10:05:30.133  INFO 29372 --- [           main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-26 10:05:30.136  INFO 29372 --- [           main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2023-12-26 10:05:30.257  INFO 29372 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-26 10:05:30.257  INFO 29372 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2314 ms
+2023-12-26 10:05:31.382  WARN 29372 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-12-26 10:05:33.400  INFO 29372 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@275902e1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ecdcfe3, org.springframework.security.web.header.HeaderWriterFilter@5a6efe33, org.springframework.security.web.authentication.logout.LogoutFilter@616f81b5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2b9ecd05, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@34a33343, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2047adea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b56947a, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@459e120b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c788d08, org.springframework.security.web.session.SessionManagementFilter@71668a67, org.springframework.security.web.access.ExceptionTranslationFilter@148b6f95, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@290807e5]
+2023-12-26 10:05:33.432  INFO 29372 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-12-26 10:05:33.495  INFO 29372 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-26 10:05:33.520  INFO 29372 --- [           main] cn.lili.admin.AdminApplication           : Started AdminApplication in 7.39 seconds (JVM running for 8.235)
+[2m2023-12-26 10:23:10.458[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mcn.lili.admin.AdminApplication          [0;39m [2m:[0;39m Starting AdminApplication using Java 1.8.0_321 on DESKTOP-KO4HVEC with PID 26016 (D:\Desk\project\wv小程序\lilishop\admin\target\classes started by wzy05 in D:\Desk\project\wv小程序\lilishop)
+[2m2023-12-26 10:23:10.462[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mcn.lili.admin.AdminApplication          [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2023-12-26 10:23:11.997[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8000 (http)
+[2m2023-12-26 10:23:12.007[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2023-12-26 10:23:12.008[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.52]
+[2m2023-12-26 10:23:12.011[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+[2m2023-12-26 10:23:12.011[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+[2m2023-12-26 10:23:12.011[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[2m2023-12-26 10:23:12.012[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2023-12-26 10:23:12.017[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+[2m2023-12-26 10:23:12.125[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2023-12-26 10:23:12.126[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1626 ms
+[2m2023-12-26 10:23:13.007[0;39m [33m WARN[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mion$DefaultTemplateResolverConfiguration[0;39m [2m:[0;39m Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2m2023-12-26 10:23:15.276[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5be7b749, org.springframework.security.web.context.SecurityContextPersistenceFilter@761f234c, org.springframework.security.web.header.HeaderWriterFilter@139089a4, org.springframework.security.web.authentication.logout.LogoutFilter@70543cae, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@39a3984c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6cc8c13c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42b4df5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e04abc5, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@b32e983, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44aeae34, org.springframework.security.web.session.SessionManagementFilter@ff4b223, org.springframework.security.web.access.ExceptionTranslationFilter@18bb1b88, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@95cecc5]
+[2m2023-12-26 10:23:15.312[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 14 endpoint(s) beneath base path '/actuator'
+[2m2023-12-26 10:23:15.385[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8000 (http) with context path ''
+[2m2023-12-26 10:23:15.413[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[           main][0;39m [36mcn.lili.admin.AdminApplication          [0;39m [2m:[0;39m Started AdminApplication in 6.026 seconds (JVM running for 7.551)
+[2m2023-12-26 10:23:15.649[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[nio-8000-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2023-12-26 10:23:15.649[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[nio-8000-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2023-12-26 10:23:15.652[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[nio-8000-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+[2m2023-12-26 10:37:12.069[0;39m [33m WARN[0;39m [35m26016[0;39m [2m---[0;39m [2m[     parallel-1][0;39m [36md.c.b.a.server.services.IntervalCheck   [0;39m [2m:[0;39m Unexpected error in status-check
+
+reactor.core.Exceptions$OverflowException: Could not emit tick 80 due to lack of requests (interval doesn't support small downstream requests that replenish slower than the ticks)
+	at reactor.core.Exceptions.failWithOverflow(Exceptions.java:233)
+	at reactor.core.publisher.FluxInterval$IntervalRunnable.run(FluxInterval.java:132)
+	at reactor.core.scheduler.PeriodicWorkerTask.call(PeriodicWorkerTask.java:59)
+	at reactor.core.scheduler.PeriodicWorkerTask.run(PeriodicWorkerTask.java:73)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[2m2023-12-26 10:39:26.061[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[    parallel-11][0;39m [36md.c.b.a.server.services.StatusUpdater   [0;39m [2m:[0;39m Couldn't retrieve status for Instance(id=3a5161661984, version=2, registration=Registration(name=buyer-api, managementUrl=http://DESKTOP-KO4HVEC:8888/actuator, healthUrl=http://DESKTOP-KO4HVEC:8888/actuator/health, serviceUrl=http://DESKTOP-KO4HVEC:8888/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2023-12-26T02:23:17.282Z, info=Info(values={}), endpoints=Endpoints(endpoints={integrationgraph=Endpoint(id=integrationgraph, url=http://DESKTOP-KO4HVEC:8888/actuator/integrationgraph), caches=Endpoint(id=caches, url=http://DESKTOP-KO4HVEC:8888/actuator/caches), loggers=Endpoint(id=loggers, url=http://DESKTOP-KO4HVEC:8888/actuator/loggers), logfile=Endpoint(id=logfile, url=http://DESKTOP-KO4HVEC:8888/actuator/logfile), health=Endpoint(id=health, url=http://DESKTOP-KO4HVEC:8888/actuator/health), env=Endpoint(id=env, url=http://DESKTOP-KO4HVEC:8888/actuator/env), heapdump=Endpoint(id=heapdump, url=http://DESKTOP-KO4HVEC:8888/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://DESKTOP-KO4HVEC:8888/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://DESKTOP-KO4HVEC:8888/actuator/mappings), beans=Endpoint(id=beans, url=http://DESKTOP-KO4HVEC:8888/actuator/beans), configprops=Endpoint(id=configprops, url=http://DESKTOP-KO4HVEC:8888/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://DESKTOP-KO4HVEC:8888/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://DESKTOP-KO4HVEC:8888/actuator/metrics), conditions=Endpoint(id=conditions, url=http://DESKTOP-KO4HVEC:8888/actuator/conditions), info=Endpoint(id=info, url=http://DESKTOP-KO4HVEC:8888/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+		at java.util.concurrent.FutureTask.run(FutureTask.java)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[2m2023-12-26 10:39:26.072[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[     parallel-6][0;39m [36md.c.b.a.server.services.StatusUpdater   [0;39m [2m:[0;39m Couldn't retrieve status for Instance(id=eb983eb5db20, version=2, registration=Registration(name=manager-api, managementUrl=http://DESKTOP-KO4HVEC:8887/actuator, healthUrl=http://DESKTOP-KO4HVEC:8887/actuator/health, serviceUrl=http://DESKTOP-KO4HVEC:8887/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2023-12-26T02:23:59.367Z, info=Info(values={}), endpoints=Endpoints(endpoints={integrationgraph=Endpoint(id=integrationgraph, url=http://DESKTOP-KO4HVEC:8887/actuator/integrationgraph), caches=Endpoint(id=caches, url=http://DESKTOP-KO4HVEC:8887/actuator/caches), loggers=Endpoint(id=loggers, url=http://DESKTOP-KO4HVEC:8887/actuator/loggers), logfile=Endpoint(id=logfile, url=http://DESKTOP-KO4HVEC:8887/actuator/logfile), health=Endpoint(id=health, url=http://DESKTOP-KO4HVEC:8887/actuator/health), env=Endpoint(id=env, url=http://DESKTOP-KO4HVEC:8887/actuator/env), heapdump=Endpoint(id=heapdump, url=http://DESKTOP-KO4HVEC:8887/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://DESKTOP-KO4HVEC:8887/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://DESKTOP-KO4HVEC:8887/actuator/mappings), beans=Endpoint(id=beans, url=http://DESKTOP-KO4HVEC:8887/actuator/beans), configprops=Endpoint(id=configprops, url=http://DESKTOP-KO4HVEC:8887/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://DESKTOP-KO4HVEC:8887/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://DESKTOP-KO4HVEC:8887/actuator/metrics), conditions=Endpoint(id=conditions, url=http://DESKTOP-KO4HVEC:8887/actuator/conditions), info=Endpoint(id=info, url=http://DESKTOP-KO4HVEC:8887/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+		at java.util.concurrent.FutureTask.run(FutureTask.java)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[2m2023-12-26 10:39:26.083[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[     parallel-7][0;39m [36md.c.b.a.server.services.StatusUpdater   [0;39m [2m:[0;39m Couldn't retrieve status for Instance(id=8d832898c157, version=2, registration=Registration(name=seller-api, managementUrl=http://DESKTOP-KO4HVEC:8889/actuator, healthUrl=http://DESKTOP-KO4HVEC:8889/actuator/health, serviceUrl=http://DESKTOP-KO4HVEC:8889/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2023-12-26T02:23:55.667Z, info=Info(values={}), endpoints=Endpoints(endpoints={integrationgraph=Endpoint(id=integrationgraph, url=http://DESKTOP-KO4HVEC:8889/actuator/integrationgraph), caches=Endpoint(id=caches, url=http://DESKTOP-KO4HVEC:8889/actuator/caches), loggers=Endpoint(id=loggers, url=http://DESKTOP-KO4HVEC:8889/actuator/loggers), logfile=Endpoint(id=logfile, url=http://DESKTOP-KO4HVEC:8889/actuator/logfile), health=Endpoint(id=health, url=http://DESKTOP-KO4HVEC:8889/actuator/health), env=Endpoint(id=env, url=http://DESKTOP-KO4HVEC:8889/actuator/env), heapdump=Endpoint(id=heapdump, url=http://DESKTOP-KO4HVEC:8889/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://DESKTOP-KO4HVEC:8889/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://DESKTOP-KO4HVEC:8889/actuator/mappings), beans=Endpoint(id=beans, url=http://DESKTOP-KO4HVEC:8889/actuator/beans), configprops=Endpoint(id=configprops, url=http://DESKTOP-KO4HVEC:8889/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://DESKTOP-KO4HVEC:8889/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://DESKTOP-KO4HVEC:8889/actuator/metrics), conditions=Endpoint(id=conditions, url=http://DESKTOP-KO4HVEC:8889/actuator/conditions), info=Endpoint(id=info, url=http://DESKTOP-KO4HVEC:8889/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+		at java.util.concurrent.FutureTask.run(FutureTask.java)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[2m2023-12-26 10:39:26.088[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[     parallel-8][0;39m [36md.c.b.a.server.services.StatusUpdater   [0;39m [2m:[0;39m Couldn't retrieve status for Instance(id=960d59c507f8, version=2, registration=Registration(name=consumer, managementUrl=http://DESKTOP-KO4HVEC:8886/actuator, healthUrl=http://DESKTOP-KO4HVEC:8886/actuator/health, serviceUrl=http://DESKTOP-KO4HVEC:8886/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2023-12-26T02:23:21.128Z, info=Info(values={}), endpoints=Endpoints(endpoints={integrationgraph=Endpoint(id=integrationgraph, url=http://DESKTOP-KO4HVEC:8886/actuator/integrationgraph), caches=Endpoint(id=caches, url=http://DESKTOP-KO4HVEC:8886/actuator/caches), loggers=Endpoint(id=loggers, url=http://DESKTOP-KO4HVEC:8886/actuator/loggers), logfile=Endpoint(id=logfile, url=http://DESKTOP-KO4HVEC:8886/actuator/logfile), health=Endpoint(id=health, url=http://DESKTOP-KO4HVEC:8886/actuator/health), env=Endpoint(id=env, url=http://DESKTOP-KO4HVEC:8886/actuator/env), heapdump=Endpoint(id=heapdump, url=http://DESKTOP-KO4HVEC:8886/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://DESKTOP-KO4HVEC:8886/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://DESKTOP-KO4HVEC:8886/actuator/mappings), beans=Endpoint(id=beans, url=http://DESKTOP-KO4HVEC:8886/actuator/beans), configprops=Endpoint(id=configprops, url=http://DESKTOP-KO4HVEC:8886/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://DESKTOP-KO4HVEC:8886/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://DESKTOP-KO4HVEC:8886/actuator/metrics), conditions=Endpoint(id=conditions, url=http://DESKTOP-KO4HVEC:8886/actuator/conditions), info=Endpoint(id=info, url=http://DESKTOP-KO4HVEC:8886/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+		at java.util.concurrent.FutureTask.run(FutureTask.java)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[2m2023-12-26 10:39:26.099[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[     parallel-9][0;39m [36md.c.b.a.server.services.StatusUpdater   [0;39m [2m:[0;39m Couldn't retrieve status for Instance(id=b0f1d814dfb7, version=2, registration=Registration(name=im-api, managementUrl=http://DESKTOP-KO4HVEC:8885/actuator, healthUrl=http://DESKTOP-KO4HVEC:8885/actuator/health, serviceUrl=http://DESKTOP-KO4HVEC:8885/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2023-12-26T02:23:17.282Z, info=Info(values={}), endpoints=Endpoints(endpoints={integrationgraph=Endpoint(id=integrationgraph, url=http://DESKTOP-KO4HVEC:8885/actuator/integrationgraph), caches=Endpoint(id=caches, url=http://DESKTOP-KO4HVEC:8885/actuator/caches), loggers=Endpoint(id=loggers, url=http://DESKTOP-KO4HVEC:8885/actuator/loggers), logfile=Endpoint(id=logfile, url=http://DESKTOP-KO4HVEC:8885/actuator/logfile), health=Endpoint(id=health, url=http://DESKTOP-KO4HVEC:8885/actuator/health), env=Endpoint(id=env, url=http://DESKTOP-KO4HVEC:8885/actuator/env), heapdump=Endpoint(id=heapdump, url=http://DESKTOP-KO4HVEC:8885/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://DESKTOP-KO4HVEC:8885/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://DESKTOP-KO4HVEC:8885/actuator/mappings), beans=Endpoint(id=beans, url=http://DESKTOP-KO4HVEC:8885/actuator/beans), configprops=Endpoint(id=configprops, url=http://DESKTOP-KO4HVEC:8885/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://DESKTOP-KO4HVEC:8885/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://DESKTOP-KO4HVEC:8885/actuator/metrics), conditions=Endpoint(id=conditions, url=http://DESKTOP-KO4HVEC:8885/actuator/conditions), info=Endpoint(id=info, url=http://DESKTOP-KO4HVEC:8885/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+		at java.util.concurrent.FutureTask.run(FutureTask.java)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[2m2023-12-26 10:39:26.102[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[    parallel-10][0;39m [36md.c.b.a.server.services.StatusUpdater   [0;39m [2m:[0;39m Couldn't retrieve status for Instance(id=2413c98ced72, version=2, registration=Registration(name=common-api, managementUrl=http://DESKTOP-KO4HVEC:8890/actuator, healthUrl=http://DESKTOP-KO4HVEC:8890/actuator/health, serviceUrl=http://DESKTOP-KO4HVEC:8890/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2023-12-26T02:23:18.362Z, info=Info(values={}), endpoints=Endpoints(endpoints={integrationgraph=Endpoint(id=integrationgraph, url=http://DESKTOP-KO4HVEC:8890/actuator/integrationgraph), caches=Endpoint(id=caches, url=http://DESKTOP-KO4HVEC:8890/actuator/caches), loggers=Endpoint(id=loggers, url=http://DESKTOP-KO4HVEC:8890/actuator/loggers), logfile=Endpoint(id=logfile, url=http://DESKTOP-KO4HVEC:8890/actuator/logfile), health=Endpoint(id=health, url=http://DESKTOP-KO4HVEC:8890/actuator/health), env=Endpoint(id=env, url=http://DESKTOP-KO4HVEC:8890/actuator/env), heapdump=Endpoint(id=heapdump, url=http://DESKTOP-KO4HVEC:8890/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://DESKTOP-KO4HVEC:8890/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://DESKTOP-KO4HVEC:8890/actuator/mappings), beans=Endpoint(id=beans, url=http://DESKTOP-KO4HVEC:8890/actuator/beans), configprops=Endpoint(id=configprops, url=http://DESKTOP-KO4HVEC:8890/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://DESKTOP-KO4HVEC:8890/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://DESKTOP-KO4HVEC:8890/actuator/metrics), conditions=Endpoint(id=conditions, url=http://DESKTOP-KO4HVEC:8890/actuator/conditions), info=Endpoint(id=info, url=http://DESKTOP-KO4HVEC:8890/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+		at java.util.concurrent.FutureTask.run(FutureTask.java)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[2m2023-12-26 10:39:33.039[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[    parallel-12][0;39m [36md.c.b.a.server.services.StatusUpdater   [0;39m [2m:[0;39m Couldn't retrieve status for Instance(id=19d34eaa1001, version=0, registration=Registration(name=manager-api, managementUrl=http://DESKTOP-KO4HVEC:8887/actuator, healthUrl=http://192.168.29.1:8887/actuator/health, serviceUrl=http://DESKTOP-KO4HVEC:8887/, source=http-api), registered=true, statusInfo=StatusInfo(status=UNKNOWN, details={}), statusTimestamp=2023-12-26T02:39:23.036Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://192.168.29.1:8887/actuator/health)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+		at java.util.concurrent.FutureTask.run(FutureTask.java)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[2m2023-12-26 13:55:24.102[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[ctor-http-nio-3][0;39m [36md.c.b.a.server.services.StatusUpdater   [0;39m [2m:[0;39m Couldn't retrieve status for Instance(id=3a5161661984, version=4, registration=Registration(name=buyer-api, managementUrl=http://DESKTOP-KO4HVEC:8888/actuator, healthUrl=http://DESKTOP-KO4HVEC:8888/actuator/health, serviceUrl=http://DESKTOP-KO4HVEC:8888/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2023-12-26T02:39:42.561Z, info=Info(values={}), endpoints=Endpoints(endpoints={integrationgraph=Endpoint(id=integrationgraph, url=http://DESKTOP-KO4HVEC:8888/actuator/integrationgraph), caches=Endpoint(id=caches, url=http://DESKTOP-KO4HVEC:8888/actuator/caches), loggers=Endpoint(id=loggers, url=http://DESKTOP-KO4HVEC:8888/actuator/loggers), logfile=Endpoint(id=logfile, url=http://DESKTOP-KO4HVEC:8888/actuator/logfile), health=Endpoint(id=health, url=http://DESKTOP-KO4HVEC:8888/actuator/health), env=Endpoint(id=env, url=http://DESKTOP-KO4HVEC:8888/actuator/env), heapdump=Endpoint(id=heapdump, url=http://DESKTOP-KO4HVEC:8888/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://DESKTOP-KO4HVEC:8888/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://DESKTOP-KO4HVEC:8888/actuator/mappings), beans=Endpoint(id=beans, url=http://DESKTOP-KO4HVEC:8888/actuator/beans), configprops=Endpoint(id=configprops, url=http://DESKTOP-KO4HVEC:8888/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://DESKTOP-KO4HVEC:8888/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://DESKTOP-KO4HVEC:8888/actuator/metrics), conditions=Endpoint(id=conditions, url=http://DESKTOP-KO4HVEC:8888/actuator/conditions), info=Endpoint(id=info, url=http://DESKTOP-KO4HVEC:8888/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:8888; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8888
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4338)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:414)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:189)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:304)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:189)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:172)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:445)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:400)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:189)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:554)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4338)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:517)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:471)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:206)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.lang.Thread.run(Thread.java:750)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8888
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+[2m2023-12-26 13:58:54.082[0;39m [32m INFO[0;39m [35m26016[0;39m [2m---[0;39m [2m[ctor-http-nio-6][0;39m [36md.c.b.a.server.services.StatusUpdater   [0;39m [2m:[0;39m Couldn't retrieve status for Instance(id=3a5161661984, version=7, registration=Registration(name=buyer-api, managementUrl=http://DESKTOP-KO4HVEC:8888/actuator, healthUrl=http://DESKTOP-KO4HVEC:8888/actuator/health, serviceUrl=http://DESKTOP-KO4HVEC:8888/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2023-12-26T05:55:52.547Z, info=Info(values={}), endpoints=Endpoints(endpoints={integrationgraph=Endpoint(id=integrationgraph, url=http://DESKTOP-KO4HVEC:8888/actuator/integrationgraph), caches=Endpoint(id=caches, url=http://DESKTOP-KO4HVEC:8888/actuator/caches), loggers=Endpoint(id=loggers, url=http://DESKTOP-KO4HVEC:8888/actuator/loggers), logfile=Endpoint(id=logfile, url=http://DESKTOP-KO4HVEC:8888/actuator/logfile), health=Endpoint(id=health, url=http://DESKTOP-KO4HVEC:8888/actuator/health), env=Endpoint(id=env, url=http://DESKTOP-KO4HVEC:8888/actuator/env), heapdump=Endpoint(id=heapdump, url=http://DESKTOP-KO4HVEC:8888/actuator/heapdump), mappings=Endpoint(id=mappings, url=http://DESKTOP-KO4HVEC:8888/actuator/mappings), scheduledtasks=Endpoint(id=scheduledtasks, url=http://DESKTOP-KO4HVEC:8888/actuator/scheduledtasks), configprops=Endpoint(id=configprops, url=http://DESKTOP-KO4HVEC:8888/actuator/configprops), beans=Endpoint(id=beans, url=http://DESKTOP-KO4HVEC:8888/actuator/beans), threaddump=Endpoint(id=threaddump, url=http://DESKTOP-KO4HVEC:8888/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://DESKTOP-KO4HVEC:8888/actuator/metrics), conditions=Endpoint(id=conditions, url=http://DESKTOP-KO4HVEC:8888/actuator/conditions), info=Endpoint(id=info, url=http://DESKTOP-KO4HVEC:8888/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:8888; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8888
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4338)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:414)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:189)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:304)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:189)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:172)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:445)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:400)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:189)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:554)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4338)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:517)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:471)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:206)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.lang.Thread.run(Thread.java:750)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8888
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
